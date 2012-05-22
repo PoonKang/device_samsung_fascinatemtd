@@ -138,6 +138,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.opengles.version=131072
 
+# PoonKang stuff
+PRODUCT_PROPERTY_OVERRIDES += \
+	debug.performance.tuning=1 \
+	debug.sf.hw=1 \
+	pm.sleep_mode=1 \
+	ro.ril.disable.power.collapse=1 \
+	video.accelerate.hw=1
+
+# PoonKang stuff
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.media.capture.torchIntensity=40
+
 # Verizon cdma stuff
 PRODUCT_PROPERTY_OVERRIDES += \
        ro.telephony.default_network=4 \
