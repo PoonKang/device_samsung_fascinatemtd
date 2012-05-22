@@ -27,8 +27,8 @@ $(call inherit-product, device/samsung/fascinatemtd/fascinatemtd.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 
 # The SGS series is hdpi however with new development going toward xhdpi we need to inherit xhdpi or we will lose those pngs
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_CONFIG := normal mdpi hdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi hdpi
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_fascinatemtd
