@@ -109,9 +109,9 @@ PRODUCT_PACKAGES += \
 	libstagefrighthw
 
 # Device-specific packages
-PRODUCT_PACKAGES += \
-	AriesParts \
-	tvouthack
+# PRODUCT_PACKAGES += \
+#	AriesParts \
+#	tvouthack
 
 # apns
 PRODUCT_COPY_FILES += \
@@ -174,8 +174,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # enable Google-specific location features,
 # like NetworkLocationProvider and LocationCollector
 PRODUCT_PROPERTY_OVERRIDES += \
-        ro.com.google.locationfeatures=1 \
-        ro.com.google.networklocation=1
+        ro.com.google.locationfeatures=0 \
+        ro.com.google.networklocation=0
 
 # Extended JNI checks
 # The extended JNI checks will cause the system to run more slowly, but they can spot a variety of nasty bugs 
