@@ -145,10 +145,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.ril.disable.power.collapse=1 \
 	video.accelerate.hw=1
 
-# PoonKang stuff
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.media.capture.torchIntensity=40
-
 # Verizon cdma stuff
 PRODUCT_PROPERTY_OVERRIDES += \
        ro.telephony.default_network=4 \
