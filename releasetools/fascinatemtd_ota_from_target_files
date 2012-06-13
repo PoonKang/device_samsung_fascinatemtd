@@ -78,6 +78,7 @@ def WriteFullOTAPackage(input_zip, output_zip):
 
   AppendAssertions(script, input_zip)
   device_specific.FullOTA_Assertions()
+#  script.WriteBMLoverMTD("recovery", "102", "reservoir", "2004", "recovery.bin")
 
   if OPTIONS.backuptool:
     script.RunBackup("backup")
@@ -104,6 +105,7 @@ def WriteFullOTAPackage(input_zip, output_zip):
   Item.Get("system").SetPermissions(script)
 
   CopyBootFiles(input_zip, output_zip)
+#  CopyRecoveryFiles(input_zip, output_zip)
   CopyBMLoverMTD(output_zip)
 
   device_specific.FullOTA_InstallEnd()

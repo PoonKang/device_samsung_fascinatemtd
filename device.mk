@@ -40,6 +40,9 @@
 # application settings that are stored in resourced.
 DEVICE_PACKAGE_OVERLAYS := device/samsung/fascinatemtd/overlay
 
+# PoonKang Options
+BYPASS := true
+
 # These are the hardware-specific configuration files
 PRODUCT_COPY_FILES := \
 	device/samsung/fascinatemtd/asound.conf:system/etc/asound.conf
