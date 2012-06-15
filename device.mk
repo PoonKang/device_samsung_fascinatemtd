@@ -71,8 +71,7 @@ PRODUCT_PACKAGES += \
 
 # These are the hardware-specific configuration files
 PRODUCT_COPY_FILES += \
-	frameworks/base/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
-	device/samsung/fascinatemtd/vold.fstab:system/etc/vold.fstab \
+	device/samsung/fascinatemtd/vold.fstab:system/etc/vold.fstab
 
 # Verizon cdma stuff
 PRODUCT_PROPERTY_OVERRIDES += \
