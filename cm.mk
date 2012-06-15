@@ -1,4 +1,5 @@
-$(call inherit-product, device/samsung/fascinatemtd/full_fascinatemtd.mk)
+# Include CDMA stuff
+$(call inherit-product, vendor/PoonKang/config/cdma.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := Fascinate
@@ -6,8 +7,8 @@ PRODUCT_RELEASE_NAME := Fascinate
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/PoonKang/config/common_full_phone.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/PoonKang/config/cdma.mk)
+# Inherit device configuration
+$(call inherit-product, device/samsung/fascinatemtd/full_fascinatemtd.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := fascinatemtd
