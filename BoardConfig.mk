@@ -78,6 +78,7 @@ BOARD_KERNEL_CMDLINE := console=ttyFIQ0,115200 init=/init no_console_suspend
 # User Kernel source
 TARGET_KERNEL_SOURCE := kernel/samsung/aries
 TARGET_KERNEL_CONFIG := PoonKang_fascinatemtd_defconfig
+TARGET_PREBUILT_KERNEL := device/samsung/fascinatemtd/kernel
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 7864320
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 262144000
