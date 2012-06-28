@@ -173,7 +173,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # be reachable from resources or other mechanisms.
 PRODUCT_PROPERTY_OVERRIDES += \
        wifi.interface=wlan0 \
-       wifi.supplicant_scan_interval=45 \
        dalvik.vm.heapstartsize=5m \
        dalvik.vm.heapgrowthlimit=48m \
        dalvik.vm.heapsize=128m
