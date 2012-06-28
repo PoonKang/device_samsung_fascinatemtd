@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mms_config version="4">
 	<bool name="enabledMMS">true</bool>
+	<bool name="enableSplitSMS">true</bool>
+	<bool name="enableMultipartSMS">false</bool>
 	<int name="maxMessageSize">1228800</int>
 	<int name="mmsHeaderSize">5120</int>
 	<int name="maxImageHeight">1920</int>
